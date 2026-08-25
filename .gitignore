@@ -1,0 +1,9 @@
+# build artifacts
+sdi-probe
+sdi-probe-portable
+*.o
+*.raw
+
+# the DeckLink SDK is proprietary and must never be committed;
+# only sdk/ACTIVE and sdk/README.md are tracked
+sdk/DeckLink_SDK_*/
